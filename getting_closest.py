@@ -1,9 +1,4 @@
-class closest:
-    def __init__(self, targetc):
-        self.targetc = targetc
-
-
-    def getclosest(self,arr1 ,arr2, target):
+def getclosest(arr1 ,arr2, target):
         closest = None
         intermediate = None
         for i in range(len(arr1)):
@@ -24,6 +19,5 @@ class closest:
 if __name__ == '__main__':
     arr1 = [-1,3,8,2,9,5]
     arr2 = [4,1,2,10,5,20]
-    ele = closest(24)
-    print(ele.getclosest(arr1,arr2,-3))    
+    print(getclosest(arr1,arr2,24))    
     
