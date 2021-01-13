@@ -26,7 +26,7 @@ def binary_search_recursive(numbers_list, number_to_find, left_index, right_inde
 
 if __name__ == '__main__':
     numbers_list = [15, 15,17, 17,19, 21,21]
-    number_to_find = 21
+    number_to_find = 19
 
     index = binary_search_recursive(numbers_list, number_to_find, 0, len(numbers_list)-1)
     print(f"Number found at index {index} using binary search")
